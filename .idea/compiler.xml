@@ -9,11 +9,13 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.3/4073ab16ab4aceb9a217273da6442166bf51ae16/auto-common-0.3.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar" />
         </processorPath>
-        <module name="HRouterMaster.hrouter" />
+        <module name="HRouterMaster.hrouter-compiler" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
       <module name="HRouterMaster.app" target="1.8" />
+      <module name="HRouterMaster.hrouter" target="1.8" />
+      <module name="HRouterMaster.hrouter-api" target="1.8" />
       <module name="HRouterMaster.module1" target="1.8" />
     </bytecodeTargetLevel>
   </component>

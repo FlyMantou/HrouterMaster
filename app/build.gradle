@@ -4,11 +4,11 @@ plugins {
     id 'kotlin-kapt'
 }
 
-kapt {
-    arguments {
-        arg("moduleName", project.getName())
-    }
-}
+//kapt {
+//    arguments {
+//        arg("moduleName", project.getName())
+//    }
+//}
 
 android {
     compileSdkVersion 30
@@ -60,7 +60,7 @@ dependencies {
 
     implementation project(":module1")
 
-    kapt project(':hrouter')
-    annotationProcessor project(':hrouter')
-    implementation project(':hrouter')
+    kapt project(':hrouter-compiler')
+    annotationProcessor project(':hrouter-compiler')
+    implementation project(':hrouter-api')
 }

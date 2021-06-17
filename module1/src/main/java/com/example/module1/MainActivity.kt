@@ -2,7 +2,7 @@ package com.example.module1
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.myhuanghai.hrouter.Route
+import com.myhuanghai.hrouter_annotation.annotation.Route
 
 
 @Route(path="/module1/MainActivity")

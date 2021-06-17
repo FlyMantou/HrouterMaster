@@ -10,8 +10,4 @@ java {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-
-    implementation 'com.squareup:javapoet:1.10.0'
-    implementation 'com.google.auto.service:auto-service:1.0-rc2'
-    annotationProcessor 'com.google.auto.service:auto-service:1.0-rc2'
 }

@@ -1,4 +1,6 @@
-include ':hrouter'
+include ':hrouter-api'
+include ':hrouter-compiler'
+include ':hrouter-annotation'
 include ':module1'
 include ':app'
 rootProject.name = "HRouterMaster"
